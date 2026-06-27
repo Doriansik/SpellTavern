@@ -166,8 +166,7 @@ public class spell_cast_new : MonoBehaviour
             // --- LOGIKA AUDIO: Anulowanie PPM (poprawka logiki) ---
             if (isAudioInitialized)
             {
-                audioSystem.SpellCancel(); 
-                audioSystem.SpellRelease();
+                audioSystem.SpellCancel();
             }
                 
             
@@ -203,7 +202,6 @@ public class spell_cast_new : MonoBehaviour
             if (isAudioInitialized)
             {
                 audioSystem.SpellCancel(); 
-                audioSystem.SpellRelease();
             }
 
             chargeTimer = 0f;
